@@ -1,0 +1,101 @@
+{
+    "channel": 
+    [
+        {
+            "name": "MQ01CHLA",
+            "clientConnection": 
+            {
+                "connection": 
+                [
+                    {
+                        "host": "student1-mq01a-ibm-mq-qm-student1.apps.676f6c48913cb65e6c13faf4.ocp.techzone.ibm.com",
+                        "port": 443
+                    }
+                ],
+                "queueManager": "*ANY_QM"
+            },
+            "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": "ECDHE_RSA_AES_128_CBC_SHA256"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "MQ01CHLB",
+            "clientConnection": 
+            {
+                "connection": 
+                [
+                    {
+                        "host": "student1-mq01b-ibm-mq-qm-student1.apps.676f6c48913cb65e6c13faf4.ocp.techzone.ibm.com",
+                        "port": 443
+                    }
+                ],
+                "queueManager": "*ANY_QM"
+            },
+            "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": "ECDHE_RSA_AES_128_CBC_SHA256"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "MQ01CHLC",
+            "clientConnection": 
+            {
+                "connection": 
+                [
+                    {
+                        "host": "student1-mq01c-ibm-mq-qm-student1.apps.676f6c48913cb65e6c13faf4.ocp.techzone.ibm.com",
+                        "port": 443
+                    }
+                ],
+                "queueManager": "*ANY_QM"
+            },
+            "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": "ECDHE_RSA_AES_128_CBC_SHA256"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "MQ01CHLD",
+            "clientConnection": 
+            {
+                "connection": 
+                [
+                    {
+                        "host": "HOSTd",
+                        "port": 443
+                    }
+                ],
+                "queueManager": "*ANY_QM"
+            },
+            "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": "ECDHE_RSA_AES_128_CBC_SHA256"
+            },
+            "type": "clientConnection"
+        }
+    ]
+}
